@@ -1,0 +1,37 @@
+<!--codewithcurious.com-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz App</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <h2>Dyslexia quiz</h2>
+      <div id="question-container">
+        <p id="question-text"></p>
+        <div id="image-container">
+          <img
+            id="question-image"
+            src="assets/intro4.png"
+            alt="Question Image"
+          />
+        </div>
+
+        <audio id="question-audio" controls>
+          Your browser does not support the <code>audio</code> element.
+        </audio>
+        <div id="answer-buttons"></div>
+      </div>
+
+      <div id="controls-container">
+        <button id="start-button">Start Quiz</button>
+        <!-- <div id="timer-container">
+        <span id="timer-text">Time Left: <span id="timer">0</span></span>
+      </div> -->
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
